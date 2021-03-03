@@ -1,0 +1,60 @@
+---
+abstract: 'The great new MyBase::Mysub!'
+author:
+  - 'Rui Chen <crotoc@gmail.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  Module::Build: '0.4004'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4231, CPAN::Meta::Converter version 2.150010'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: MyBase-Mysub
+provides:
+  Bio::Build:
+    file: lib/Bio/Build.pm
+    version: '0.01'
+  Bio::Exception:
+    file: lib/Bio/Exception.pm
+    version: '0.01'
+  MyBase::Bio::Root::Build:
+    file: lib/MyBase/Bio/Root/Build.pm
+    version: '1.006923'
+  MyBase::Bio::Root::Exception:
+    file: lib/MyBase/Bio/Root/Exception.pm
+  MyBase::Bio::Root::HTTPget:
+    file: lib/MyBase/Bio/Root/HTTPget.pm
+  MyBase::Bio::Root::IO:
+    file: lib/MyBase/Bio/Root/IO.pm
+  MyBase::Bio::Root::Root:
+    file: lib/MyBase/Bio/Root/Root.pm
+  MyBase::Bio::Root::RootI:
+    file: lib/MyBase/Bio/Root/RootI.pm
+  MyBase::Bio::Root::Storable:
+    file: lib/MyBase/Bio/Root/Storable.pm
+  MyBase::Bio::Root::Test:
+    file: lib/MyBase/Bio/Root/Test.pm
+  MyBase::Bio::Root::Utilities:
+    file: lib/MyBase/Bio/Root/Utilities.pm
+  MyBase::Bio::Root::Version:
+    file: lib/MyBase/Bio/Root/Version.pm
+    version: '1.006923'
+  MyBase::Mysub:
+    file: lib/MyBase/Mysub.pm
+    version: '0.01'
+  MyBase::Usual:
+    file: lib/MyBase/Usual.pm
+requires:
+  Array::Utils: '0.5'
+  DBI: '1.643'
+  Data::Dumper: '2.1'
+  Env::Modify: '0'
+  List::Uniq: '0.23'
+  Switch: '0'
+resources:
+  license: http://www.perlfoundation.org/artistic_license_2_0
+version: '0.01'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
