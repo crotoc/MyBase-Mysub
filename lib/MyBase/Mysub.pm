@@ -234,7 +234,7 @@ sub sqlite_query{
 
     my $colstr=join ",",@$tablecol;
     my $stmt = qq(SELECT $colstr FROM $table where $where);
-    print Dumper($stmt);
+    #print Dumper($stmt);
     my $sth = $dbh->prepare( $stmt );
     my $rv = $sth->execute() or die $DBI::errstr;
     if($rv < 0){
